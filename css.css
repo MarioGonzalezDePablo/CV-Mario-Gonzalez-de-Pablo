@@ -1,0 +1,18 @@
+nav{
+    background-color: rgb(97, 87, 87);
+    height: 3em;
+    padding: 2em;
+}
+.divNav{
+
+}
+.vr{
+
+    background-color: yellow;
+    width: 2px;
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+}
