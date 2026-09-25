@@ -1,24 +1,43 @@
 nav{
-    --padding: 2em;
-    --height: 3em;
+    --padding: 0em;
+    --height: 7em;
 
-    background-color: rgb(97, 87, 87);
+    background-color: rgb(131, 127, 127);
     height: var(--height);
     padding: var(--padding);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
 }
 .divNav{
+    font-weight: bold;
+    padding: 0em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-size: 1.2em;
+    height: 100%;
+    background-color:blue
+}
 
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: orange;
 }
 .vr{
-    position: absolute;
-    top: 0px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     background-color: yellow;
     width: 2px;
-    height: calc(var(--padding)*2 + var(--height));
-    
+    height: calc(var(--padding) * 2 + var(--height));
+    color: yellow;
 }
 
 body{
     margin: 0px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
