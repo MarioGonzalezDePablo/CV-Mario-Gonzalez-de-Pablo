@@ -33,7 +33,7 @@ nav{
     background-color: rgb(172, 170, 170);
 }
 .currentPage{
-    color: rgb(0, 255, 106);
+    color: red;
 }
 red{
     color: red;
