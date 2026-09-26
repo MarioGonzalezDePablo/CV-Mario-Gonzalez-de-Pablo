@@ -32,6 +32,21 @@ nav{
     background-position: center;
     background-color: rgb(172, 170, 170);
 }
+
+
+@media (max-width: 750px) {
+    nav{
+        --MinHeight: 3em;
+    }
+    .divLogo{
+        width: 6em;
+        height: 3em;
+    }
+    .divNav{
+        margin-left: 0.25em;
+        margin-right: 0.25em;
+    }
+}
 .f{
 
 }
