@@ -1,24 +1,49 @@
 nav{
-    --padding: 0em;
-    --height: 7em;
+    --MinHeight: 6em;
 
-    background-color: rgb(131, 127, 127);
-    height: var(--height);
+    background-color: rgb(172, 170, 170);
+    height: auto;
+    min-height: var(--MinHeight);
     padding: var(--padding);
 
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 .divNav{
     font-weight: bold;
-    padding: 0em;
     margin-left: 0.5em;
     margin-right: 0.5em;
     font-size: 1.2em;
     height: 100%;
-    background-color:blue
+    align-items: center;
+}
+.divLogo{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    height: 100%;
+    background-image: url(./Imagenes/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 12em;
+    height:6em;
+    background-position: center;
+    background-color: rgb(172, 170, 170);
+}
+.currentPage{
+    color: red;
+}
+red{
+    color: red;
+}
+.cajasExperiencia{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(172, 170, 170);
+    border-radius: 1em;
+    padding: 1em;
 }
 
 a{
@@ -31,13 +56,22 @@ a:hover{
 .vr{
     margin-left: 0.5em;
     margin-right: 0.5em;
-    background-color: yellow;
-    width: 2px;
-    height: calc(var(--padding) * 2 + var(--height));
-    color: yellow;
+    background-color: rgb(255, 187, 0);
+    width: 3px;
+    height: calc(var(--MinHeight));
 }
 
 body{
     margin: 0px;
     background-color: rgb(255, 255, 255);
+}
+
+main{
+    margin-top : 1em;
+    padding: 1em;
+}
+.cajaTexto{
+    padding: 2em;
+    justify-content: left;
+    text-align: left;
 }
