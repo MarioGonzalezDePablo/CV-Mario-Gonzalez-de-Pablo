@@ -32,7 +32,7 @@ nav{
     width: 12em;
     height: 6em;
     background-position: center;
-    background-color: rgb(190, 189, 189);
+    background-color: rgb(158, 154, 154);
 }
 
 
@@ -48,7 +48,7 @@ nav{
     width: 12em;
     height: 6em;
     background-position: center;
-    background-color: rgb(190, 189, 189);
+    background-color: rgb(158, 154, 154);
 }
 .divNavMovil{
     font-weight: bold;
@@ -109,7 +109,7 @@ nav{
     display: block;
 }
 
-@media (max-width: 962px) {
+@media (max-width: 795px) {
     .navMovil {
         display: block;
     }
